@@ -7,7 +7,11 @@ function getReshape() {
     return axios.get(`${BASE_URL}/reshape`);
 }
 
+function getContracts() {
+    console.log(BASE_URL);
+    return axios.get(`${BASE_URL}/contracts`);
+}
 
-const apiService = { getReshape };
+const apiService = { getReshape, getContracts };
 
 export default apiService;
