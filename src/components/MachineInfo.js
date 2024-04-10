@@ -68,20 +68,27 @@ export default function MachineInfo({machine}) {
 
 
 const CompartmentInfo = styled.div`
-    gap: 20px;
+    gap: 15px;
     flex-wrap: wrap;
     border: 1px solid gray;
 `
 
 const Info = styled.div`
-    justify-content: flex-start !important;
+    gap: 5px;
     div {
+        justify-content: flex-start !important;
+        min-height: 110px !important;
+        padding: 0 !important;
         flex-direction: column;
         gap: 10px;
         text-align: center;
         font-size: 19px;
         font-weight: 400;
+        h3{
+            word-break: break-all;
+        }
     }
+    
 `
 
 const OCPU_MEM = styled.div`
