@@ -63,24 +63,4 @@ function getCost(shape, OCPU, MEM) {
   
       return cost;
     }
-  }
-  
-// ARRAY OCI-PRICES
-//   [
-//     {
-//       "partNumber": "B107975",
-//       "displayName": "OCI - FastConnect 400 Gbps",
-//       "metricName": "Port Hour",
-//       "serviceCategory": "Networking - FastConnect",
-//       "currencyCodeLocalizations": [
-//         {
-//           "currencyCode": "BRL",
-//           "prices": [
-//             {
-//               "model": "PAY_AS_YOU_GO",
-//               "value": 100.204
-//             }
-//           ]
-//         }
-//       ]
-//     },
+}
