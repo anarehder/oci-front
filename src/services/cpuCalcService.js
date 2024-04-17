@@ -33,7 +33,7 @@ function estimateCPUreduce(maxCPU, meanCPU, OCPU) {
       } else if (24 < OCPU && OCPU <= 48) {
         newOCPU = OCPU + 6;
       } else {
-        newOPCU = OCPU + 12;
+        newOCPU = OCPU + 12;
       }
     }
   

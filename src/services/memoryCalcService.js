@@ -1,11 +1,11 @@
 function estimateMEMreduce(maxMEM, MEM) {
-    let estimatedMEM = ((maxMEM * 1.1) / 100) * MEM;
+    let estimatedMEM = ((Number(maxMEM) * 1.1) / 100) * Number(MEM);
     estimatedMEM = Math.ceil(estimatedMEM);
     return estimatedMEM;
 }
   
   function estimateMEMincrease(meanMEM, MEM) {
-    let estimatedMEM = (meanMEM / 200) * MEM + MEM;
+    let estimatedMEM = (Number(meanMEM) / 200) * Number(MEM) + Number(MEM);
     estimatedMEM = Math.ceil(estimatedMEM);
     return estimatedMEM;
 }
